@@ -1,0 +1,1118 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* list */
+.header__mainHead{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 30px 0 30px;
+    padding-bottom: 30px;
+    /*line-use*/
+}
+.search{
+    display: flex;
+}
+.search__tag{
+    height: 60px;
+    vertical-align: middle;
+    border: none;
+    background-color: #fff;
+    padding-right: 20px;
+    cursor: pointer;
+}
+.search__tag:hover{
+    background: rgb(250, 248, 248);
+    background:#fbfafa;
+    opacity: 0.5;
+}
+.search__tagPic{
+    width: 25px;
+}
+.search__information{
+    color: #6c6d6e;
+    font-size: 12px;
+}
+.header__mainLogo{
+    height: 40px;
+}
+.header__subPic{
+    width: 120px;
+}
+.header__subHead{
+    position:sticky;
+    top: -20px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    border-top: 1px solid rgb(202, 202, 202);
+    padding-top: 15px;
+    border-bottom: 1px solid rgb(202, 202, 202);
+    padding-bottom: 15px;
+}
+.haeder__malama{
+    margin-left: 30px;
+    color: #f65936;
+    text-decoration: none;
+}
+.haeder__malama:hover{
+    color: #f4765a;
+}
+.header__list{
+    display: flex;
+}
+.list__travelers, .list__introduce, .list__relative, .list__community, .list__feature{
+    padding-left: 50px;
+}
+.travelers__item, .introduce__item, .relative__item, .community__item, .feature__item{
+    text-decoration: none;
+    color: #000;
+}
+.travelers__item:hover, .introduce__item:hover, .relative__item:hover, .community__item:hover, .feature__item:hover{
+    border-bottom: 5px solid #000;
+    padding-bottom: 15px;
+    transition: .6;
+}
+.header__industry{
+    display: flex;
+    margin-right: 30px;
+}
+.header__industry:hover{
+    background:#fbfafa;
+    opacity: 0.5;
+}
+.header__industryLink{
+    color: #6c6d6e;
+    text-decoration: none;
+}
+/* board1 */
+.board1{
+    margin-top: 400px;
+}
+.board1__imagine{
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    font-size: 150px;
+    font-weight: bold;
+    z-index: 1;
+}
+.board1__future{
+    position: absolute;
+    top: 400px;
+    left: 60px;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.board1__growPic{
+    width: 70%;
+    position: relative;
+    border-radius: 0 20px 0 0 ;
+}
+
+.board1__textArea{
+    position: absolute;
+    top: 700px;
+    left: 1030px;
+}
+.board1__circle{
+    margin: 0 0 80px 80px;
+}
+.board1__text{
+    writing-mode: vertical-rl;
+    line-height: 2.2;
+}
+/* board2 */
+.board2{
+    background-color:#F9F6F5 ;
+}
+.board2__turtlePic{    
+    position: absolute;
+    left: 100px;
+    top: 1350px;
+    width: 40%;
+    border-radius: 10px;
+}
+.board2__textArea{
+    margin-left: 700px;
+}
+.board2__beautiful{
+    padding-top: 100px;
+    font-weight:bold;
+    font-size: 30px;
+}
+.board2__preciousCreature{
+    width: 80%;
+    line-height: 2.2;
+    margin: 40px 0;
+}
+.whatMalama{
+    display: flex;
+    text-decoration: none;
+}
+.whatMalama:hover{
+    background-color: #f5f5f5;
+    opacity: .8;
+}
+.whatMalama__text{
+    color: #f65936;
+    padding-right: 10px;
+}
+.whatMalama__arrow{
+    border: 1px solid #f65936;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+}
+.board2__keep{
+    margin: 60px 0 60px 60px;
+}
+.board2__keep--what, .board2__keep--future{
+    font-size: 80px;
+}
+.board2__keep--orange{
+    font-size: 80px;
+    color: #f65936;
+    font-weight: bold;
+}
+.board2__aboutMalama{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+.board2__malamaArea{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.board2__dutyArea, .board2__initiativeArea, .board2__tourismArea{
+    width: 400px;
+    position: relative;
+}
+.board2__initiativeArea{
+    margin: 0 15px;
+}
+.board2__dutyPic, .board2__initiativePic, .board2__tourismPic{
+    width: 400px;
+    border-radius: 10px;
+}
+/* .board2__dutyPic:hover, .board2__initiativePic:hover, .board2__tourismPic:hover{
+    background: rgb(0, 0, 0, .7);
+} */
+.board2__dutyText, .board2__initiativeText, .board2__tourismText{
+    position: absolute;
+    width:80%;
+    top: 40px;
+    left: 40px;
+    color: #fff;
+    font-size: 30px;
+}
+.board2__dutyMore{
+    position: absolute;
+    top: 190px;
+    left: 40px;
+    display: flex;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    padding: 8px;
+}
+.board2__initiativeMore{
+    position: absolute;
+    top: 190px;
+    left: 40px;
+    display: flex;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    padding: 8px;
+}
+.board2__tourismMore{
+    position: absolute;
+    top: 150px;
+    left: 40px;
+    display: flex;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    padding: 8px;
+}
+.dutyMore, .initiativeMore, .tourismMore{
+    font-size: 12px;
+    padding-right: 10px;
+}
+.board2__dutyArrow{
+    border: 1px solid #f65936;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+}
+.board2__initiativeArrow{
+    border: 1px solid #f65936;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+}
+.board2__tourismArrow{
+    border: 1px solid #f65936;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+}
+.board2__responsible, .board2__haloha, .board2__message{
+    position: absolute;
+    top: 500px;
+    left: 40px;
+    color: #fff;
+}
+.board2__duty--disappear, .board2__initiative--disappear, .board2__tourism--disappear{
+    position: absolute;
+    top: 400px;
+    padding: 0 40px;
+    color: #fff;
+    /* opacity: 0; */
+}
+/* latest */
+.board3{
+    padding-bottom: 100px;
+}
+.board3__latest{
+    border-top: 2px solid #000;
+    border-bottom: 1px solid rgb(194, 194, 194);
+    margin: 80px 40px 0 40px;
+    padding: 10px 0 60px 0;
+}
+.board3__latestTravelers{
+    display: flex;
+    align-items: baseline;
+    padding-top: 20px;
+}
+.board3__utmeArea{
+    padding-left: 40px;
+    width: 50%;
+    text-decoration: none;
+    color: #000;
+}
+.board3__utmeArea:hover{
+    background-color: rgb(255, 254, 254);
+    opacity: 0.8;
+    transition: .4s;
+}
+.board3__utmeElse{
+    display: flex;
+}
+.board3__utmeText{
+    font-size: 12px;
+}
+.board3__utmePic{
+    margin-top: 10px;
+    width: 95%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.board3__TextArea{
+    margin-top: 10px;
+    display: flex;
+    width: 95%;
+}
+.board3__utmeMajorText{
+    width: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 30px;
+}
+.board3__utmeSubText{
+    width: 50%;
+    font-size: 15px;
+}
+.board3__utmeSub{
+    margin-bottom: 10px;
+}
+.board3__travelers{
+    display: flex;
+    align-items: baseline;
+    margin-left: 40px;
+}
+.board3__travelersTitle{
+    font-size: 25px;
+    font-weight: bold;
+}
+.board3__travelersSmall{
+    margin-left: 20px;
+    color: rgb(75, 75, 75);
+}
+.board3__travelersMore{
+    display: flex;
+    text-decoration: none;
+    margin-left: 790px;
+}
+.board3__travelersMore:hover{
+    background-color: #fff;
+    opacity: 0.7;
+    transition: .8s;
+}
+.board3__travelersMoreText{
+    color: #f65936;
+    padding-right: 10px;
+}
+.board3__travelersMoreTag{
+    border: 1px solid #f65936;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+}
+.board3__travelersArea{
+    /* padding: 10px; */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.board3__fourbox{
+    /* margin-right: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.board3__euluaArea, .board3__coastlineArea, .board3__worldOceanDayArea, .board3__incomeArea{
+    width: 50%;
+    text-decoration: none;
+    color: #000;
+}
+.board3__euluaArea:hover, .board3__coastlineArea:hover, .board3__worldOceanDayArea:hover, .board3__incomeArea:hover{
+    background-color: rgb(255, 254, 254);
+    opacity: 0.8;
+    transition: .4s;
+}
+.board3__euluaPic, .board3__coastlinePic, .board3__worldOceanDayPic, .board3__incomePic{
+    margin: 10px 0;
+    height: 200px;
+    border-radius: 10px;
+}
+.board3__euluaCulture, .board3__coastlineSea, .board3__worldOceanDaySea,.board3__incomeElse{
+    display: flex;
+}
+.board3__euluaCultureText, .board3__coastlineText, .board3__worldOceanDayText, .board3__incomeElseText{
+    font-size: 12px;
+}
+.board3__euluaText, .board3__coastlineText, .board3__worldOceanDayText, .board3__incomeText{
+    font-size: 15px;
+    font-weight: bold;
+    width: 90%;
+    margin-bottom: 10px;
+}
+/* corporate */
+.board4{
+    padding-bottom: 100px;
+}
+.board4__corporateInitiatives{
+    display: flex;
+    align-items: baseline;
+    padding-top: 20px;
+    border-top: 1px solid rgb(194, 194, 194);
+    margin: 0 40px;
+}
+.board4__HotelArea{
+    /* margin-left: 40px; */
+    width: 50%;
+    text-decoration: none;
+    color: #000;
+}
+.board4__HotelArea:hover{
+    background-color: rgb(255, 254, 254);
+    opacity: 0.8;
+    transition: .4s;
+}
+.board4__HotelElse{
+    display: flex;
+}
+.board4__HotelText{
+    font-size: 12px;
+}
+.board4__HotelPic{
+    margin-top: 10px;
+    width: 95%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.board4__TextArea{
+    margin-top: 10px;
+    display: flex;
+    width: 95%;
+}
+.board4__HotelMajorText{
+    width: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 30px;
+}
+.board4__HotelSubText{
+    width: 50%;
+    font-size: 15px;
+}
+.board4__HotelSub{
+    margin-bottom: 10px;
+}
+.board4__corporate{
+    display: flex;
+    align-items: baseline;
+}
+.board4__corporateTitle{
+    font-size: 25px;
+    font-weight: bold;
+}
+.board4__corporateSmall{
+    margin-left: 20px;
+    color: rgb(75, 75, 75);
+}
+.board4__corporateMore{
+    display: flex;
+    text-decoration: none;
+    margin-left: 880px;
+}
+.board4__corporateMore:hover{
+    background-color: #fff;
+    opacity: 0.7;
+    transition: .8s;
+}
+.board4__corporateMoreText{
+    color: #f65936;
+    padding-right: 10px;
+}
+.board4__corporateMoreTag{
+    border: 1px solid #f65936;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+}
+.board4__corporateArea{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.board4__fourbox{
+    margin-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.board4__seaparkArea, .board4__cosmeticArea, .board4__lanaiArea, .board4__kahalaArea{
+    width: 50%;
+    text-decoration: none;
+    color: #000;
+}
+.board4__seaparkArea:hover, .board4__cosmeticArea:hover, .board4__lanaiArea:hover, .board4__kahalaArea:hover{
+    background-color: rgb(255, 254, 254);
+    opacity: 0.8;
+    transition: .4s;
+}
+.board4__seaparkPic, .board4__cosmeticPic, .board4__lanaiPic, .board4__kahalaPic{
+    width: 300px;
+    margin: 10px 0;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.board4__seaparkCulture, .board4__cosmetic, .board4__lanaiSea,.board4__kahalaElse{
+    display: flex;
+}
+.board4__seaparkCultureText, .board4__cosmeticText, .board4__lanaiText, .board4__kahalaElseText{
+    font-size: 12px;
+}
+.board4__seaparkText, .board4__cosmeticText, .board4__lanaiText, .board4__kahalaText{
+    font-size: 15px;
+    font-weight: bold;
+    width: 90%;
+    margin-bottom: 10px;
+}
+/* animation */
+.board5{
+    padding-bottom: 100px;
+}
+.board5__hawaiiInitiative{
+    display: flex;
+    align-items: baseline;
+    padding-top: 20px;
+    border-top: 1px solid rgb(194, 194, 194);
+    margin: 0 40px;
+}
+.board5__seawindArea{
+    padding-left: 40px;
+    width: 50%;
+    text-decoration: none;
+    color: #000;
+}
+.board5__seawindArea:hover{
+    background-color: rgb(255, 254, 254);
+    opacity: 0.8;
+    transition: .4s;
+}
+.animationTourism{
+    font-size: 12px;
+}
+.board5__seawindPic{
+    margin-top: 10px;
+    width: 95%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.board5__seawindTextArea{
+    margin-top: 10px;
+    display: flex;
+    width: 95%;
+}
+.board5__seawindMajorText{
+    width: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 30px;
+}
+.board5__seawindSubText{
+    width: 50%;
+    font-size: 15px;
+}
+.board5__seawindSub{
+    margin-bottom: 10px;
+}
+.board5__hawaiiTourism{
+    display: flex;
+    align-items: baseline;
+}
+.board5__hawaiiTourismTitle{
+    font-size: 25px;
+    font-weight: bold;
+}
+.board5__hawaiiTourismSmall{
+    margin-left: 20px;
+    color: rgb(75, 75, 75);
+}
+.board5__hawaiiTourismMore{
+    display: flex;
+    text-decoration: none;
+    margin-left: 680px;
+}
+.board5__hawaiiTourismMore:hover{
+    background-color: #fff;
+    opacity: 0.7;
+    transition: .8s;
+}
+.board5__hawaiiTourismMoreText{
+    color: #f65936;
+    padding-right: 10px;
+}
+.board5__hawaiiTourismMoreTag{
+    border: 1px solid #f65936;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+}
+.board5__hawaiiTourismArea{
+    /* padding: 10px; */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.board5__fourbox{
+    /* margin-right: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.board5__SNSArea, .board5__canoeArea, .board5__adamArea, .board5__bayflowArea{
+    width: 50%;
+    text-decoration: none;
+    color: #000;
+    padding-bottom: 20px;
+}
+.board5__SNSArea:hover, .board5__canoeArea:hover, .board5__adamArea:hover, .board5__bayflowArea:hover{
+    background-color: rgb(255, 254, 254);
+    opacity: 0.8;
+    transition: .4s;
+}
+.SNS, .canoe, .adam, .bayflow{
+    font-size: 12px;
+}
+.board5__SNSPic, .board5__canoePic, .board5__adamPic, .board5__bayflowPic{
+    margin: 10px 0;
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
+.board5__SNSText, .board5__canoeText, .board5__adamText, .board5__bayflowText{
+    font-size: 15px;
+    font-weight: bold;
+    width: 90%;
+    margin-bottom: 10px;
+}
+/* community */
+.board6{
+    padding-bottom: 100px;
+}
+.board6__communitiyInitiatives{
+    display: flex;
+    align-items: baseline;
+    padding-top: 20px;
+    border-top: 1px solid rgb(194, 194, 194);
+    margin: 0 40px;
+}
+.board6__communitiyInitiativesArea{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+}
+.board6__kupuArea{
+    width: 50%;
+    text-decoration: none;
+    color: #000;
+}
+.board6__kupuArea:hover{
+    background-color: rgb(255, 254, 254);
+    opacity: 0.8;
+    transition: .4s;
+}
+.board6__kupu{
+    font-size: 12px;
+}
+.board6__kupuPic{
+    margin-top: 10px;
+    width: 95%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.board6__kupuTextArea{
+    margin-top: 10px;
+    display: flex;
+    width: 95%;
+}
+.board6__kupuMajorText{
+    width: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 30px;
+}
+.board6__kupuSubText{
+    width: 50%;
+    font-size: 15px;
+}
+.board6__kupuSub{
+    margin-bottom: 10px;
+}
+.board6__communitiyIssue{
+    display: flex;
+    align-items: baseline;
+}
+.board6__communitiyInitiativesTitle{
+    font-size: 25px;
+    font-weight: bold;
+}
+.board6__communitiyInitiativesSmall{
+    margin-left: 20px;
+    color: rgb(75, 75, 75);
+}
+.board6__communitiyInitiativesMore{
+    display: flex;
+    text-decoration: none;
+    margin-left: 740px;
+}
+.board6__communitiyInitiativesMore:hover{
+    background-color: #fff;
+    opacity: 0.7;
+    transition: .8s;
+}
+.board6__communitiyInitiativesMoreText{
+    color: #f65936;
+    padding-right: 10px;
+}
+.board6__communitiyInitiativesMoreTag{
+    border: 1px solid #f65936;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+}
+.board6__fourbox{
+    margin-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.board6__MaearthdayaArea, .board6__airStationArea, .board6__iolaniArea, .board6__earthdayArea{
+    width: 50%;
+    text-decoration: none;
+    color: #000;
+    padding-bottom: 20px;
+}
+.board6__MaearthdayaArea:hover, .board6__airStationArea:hover, .board6__iolaniArea:hover, .board6__earthdayArea:hover{
+    background-color: rgb(255, 254, 254);
+    opacity: 0.8;
+    transition: .4s;
+}
+.Maearthdaya, .airStation, .iolani{
+    font-size: 12px;
+}
+.earthday:empty{
+    height: 20px;
+}
+.board6__MaearthdayaPic, .board6__airStationPic, .board6__iolaniPic, .board6__earthdayPic{
+    margin: 10px 0;
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
+.board6__MaearthdayaText, .board6__airStationText, .board6__iolaniText, .board6__earthdayText{
+    font-size: 15px;
+    font-weight: bold;
+    width: 90%;
+    margin-bottom: 10px;
+}
+/* feature */
+.board7{
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+    position: relative;
+}
+.backgroundPic{
+    width: 100%;
+    height: 40%;
+}
+.board7__featuredInside{
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}
+.board7__featured{
+    margin-right: 40px;
+    border-top: 2px solid #fff;
+    color: #fff;
+}
+.featured__featuresArea{
+    margin-top: 150px;
+}
+.featured__featuresMain{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.featured__featuresSub{
+    color: rgb(202, 201, 201);
+}
+.featured__picArea{
+    margin-top: 40px;
+    display: flex;
+}
+.featured__alohaPic{
+    width: 99%;
+    border-radius: 10px;
+}
+.featured__alohaPicArea{
+    width: 40%;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 30px;
+}
+.featured__languageText{
+    position: absolute;
+    top: 610px;
+    left: 20px;
+    color:#fff;
+}
+.featured__languageMore{
+    position: absolute;
+    top: 610px;
+    left: 450px;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+.featured__nothingPicArea{
+    width: 50%;
+}
+.featured__nothingPic{
+    width:80%;
+    border-radius: 10px;
+}
+.featured__coming{
+    position: absolute;
+    top: 610px;
+    left: 570px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+}
+/* corporate&partners */
+.board8{
+    background-color:#F9F6F5 ;
+}
+.board8__communities{
+    border-top: 2px solid #000;
+    border-bottom: 1px solid rgb(194, 194, 194);
+    margin: 10px 40px 0 40px;
+    padding: 10px 0 60px 0;
+}
+.board8__introduceArea{
+    margin-top: 20px;
+    display: flex;
+}
+.board8__introduce{
+    margin-left: 40px;
+    font-size: 25px;
+}
+.introduceMore{
+    margin-left: 970px;
+    text-decoration: none;
+    display: flex;
+    color: #f65936;
+}
+.introduceMoreTag{
+    border: 1px solid #f65936;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+}
+.board8__introduceRows{
+    margin-top: 50px;
+}
+.firstRow{
+    display: flex;
+}
+.itemAloha, .itemHooku, .itemAha, .itemHawaiiLand, .itemAuwahi, .itemMalama{
+    background-color: #fff;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+.itemAlohaPic, .itemHookuPic, .itemAhaPic, .itemHawaiiLandPic, .itemAuwahiPic, .itemMalamaPic{
+    padding: 10px 0 0 50px;
+    width: 95px;
+    height: 80px;
+}
+.itemAlohaText, .itemHookuText, .itemAhaText, .itemHawaiiLandText, .itemAuwahiText, .itemMalamaText{
+    width: 150px;
+    margin: 0 20px;
+    font-size: 12px;
+}
+.secRow{
+    display: flex;
+}
+.itemNacoa, .itemIolani, .itemIole, .itemKauai, .itemKupu, .itemHfi{
+    background-color: #fff;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin:30px 0 150px 30px;
+}
+.itemNacoaPic, .itemIolaniPic, .itemIolePic, .itemKauaiPic, .itemKupuPic, .itemHfiPic{
+    width: 95px;
+    height: 80px;
+    padding: 10px 0 0 50px;
+}
+.itemNacoaText, .itemIolaniText, .itemIoleText, .itemKauaiText, .itemKupuText, .itemHfiText{
+    width: 150px;
+    margin: 0 20px;
+    font-size: 12px;
+}
+/* movies */
+.board9__movies{
+    border-top: 2px solid #000;
+    border-bottom: 1px solid rgb(194, 194, 194);
+    margin: 80px 40px 0 40px;
+    padding: 10px 0 60px 0;
+}
+.board9__film{
+    display: flex;
+    align-items: baseline;
+    padding-top: 20px;
+}
+.board9__ahupuaaArea{
+    padding-left: 40px;
+    width: 50%;
+    text-decoration: none;
+    color: #000;
+}
+.board9__ahupuaaArea:hover{
+    background-color: rgb(255, 254, 254);
+    opacity: 0.8;
+    transition: .4s;
+}
+.board9__ahupuaaText{
+    font-size: 12px;
+}
+.board9__ahupuaaPic{
+    margin-top: 10px;
+    width: 95%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.board9__TextArea{
+    margin-top: 10px;
+    display: flex;
+    width: 95%;
+}
+.board9__ahupuaaMajorText{
+    width: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 30px;
+}
+.board9__ahupuaaSubText{
+    width: 50%;
+    font-size: 15px;
+}
+.board9__ahupuaaSub{
+    margin-bottom: 10px;
+}
+.board9__moviesTitle{
+    margin-left: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.board9__moviesMore{
+    display: flex;
+    text-decoration: none;
+    margin-left: 1070px;
+}
+.board9__moviesMoreText{
+    color: #f65936;
+    padding-right: 10px;
+}
+.board9__moviesMoreTag{
+    border: 1px solid #f65936;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+}
+.board9__moviesArea{
+    /* padding: 10px; */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.board9__fourbox{
+    /* margin-right: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.board9__promotionArea, .board9__agricultureArea, .board9__regenerationArea, .board9__ecosystemArea{
+    width: 50%;
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 20px;
+}
+.board9__promotionArea:hover, .board9__agricultureArea:hover, .board9__regenerationArea:hover, .board9__ecosystemArea:hover{
+    background-color: rgb(255, 254, 254);
+    opacity: 0.8;
+    transition: .4s;
+}
+.board9__promotionPic, .board9__agriculturePic, .board9__regenerationPic, .board9__ecosystemPic{
+    width: 300px;
+    margin: 10px 0;
+    height: 200px;
+    border-radius: 10px;
+}
+.board9__promotionCultureText, .board9__agricultureSeaText, .board9__regenerationSeaText, .board9__ecosystemElseText{
+    font-size: 12px;
+}
+/* share */
+.board9__pic{
+    width: 100%;
+}
+.textBox{
+    background-color: #303133;
+    height: 300px;
+}
+.board9__pictures{
+    display: flex;
+    /* justify-content: center; */
+    padding-top: 60px;
+    margin: 0 30px;
+    margin-top: -10px;
+}
+.board9__surfingBox, .board9__hokuleaBox, .board9__nothingFirstBox, .board9__nothingSecBox{
+    width: 300px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+.board9__link{
+    background-color:#202122;
+}
+.board9__links{
+    display: flex;
+    padding: 100px 90px 60px 30px;
+}
+.bestArea:hover, .malamaArea:hover, .travelerDoArea:hover, .introduceArea:hover, .moviesArea:hover, .communitiesArea:hover, .featuredArea:hover{
+    color: rgb(192, 55, 55);
+    transition: .6s;
+}
+.bestArea, .malamaArea, .travelerDoArea, .introduceArea, .moviesArea, .communitiesArea, .featuredArea, .industry, .ask, .service, .privacy{
+    display: block;
+    text-decoration: none;
+    color: #abacae;
+    width: 325px;
+}
+.bestArea, .malamaArea, .travelerDoArea, .introduceArea, .moviesArea, .communitiesArea, .featuredArea{
+    padding-bottom: 50px;
+}
+.industry, .ask, .service, .privacy{
+    padding-bottom: 20px;
+}
+.best, .whatmalama, .traveler, .introduce, .movies, .communities, .featured{
+    font-size: 20px;
+    font-weight: bold;
+}
+.industry, .ask, .service, .privacy{
+    display: flex;
+}
+.industry:hover, .ask:hover, .service:hover, .privacy:hover{
+    color: #7b7d82;
+    transition: .6s;
+}
+.board9__footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+    border-top: 1px solid #aaa;
+    padding: 60px 0;
+}
+.webtext{
+    font-size: 12px;
+    color: #abacae;
+}
+.copyright{
+    display: flex;
+    flex-direction: column;
+}
+.endLogo{
+    cursor: pointer;
+}
+.endLogo:hover{
+    background-color: #eaeaea;
+    opacity: 0.5;
+}
+.copyright-text{
+    color:rgb(194, 194, 194);
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.twitterIcon, .igIcon, .fbIcon, .youtubeIcon, .lineIcon{
+    padding-right: 15px;
+}
+.twitter:hover, .ig:hover, .fb:hover, .youtube:hover, .line:hover{
+    background-color: rgb(124, 123, 123);
+    opacity: 0.769;
+}
+.shareIcon{
+    padding-top: 20px;
+}

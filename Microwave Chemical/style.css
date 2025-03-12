@@ -1,0 +1,979 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+/* board1 */
+.header{ 
+    width: 1200px;   
+    height: 900px;
+    background-image: url(./image/svg/top_wave.svg), url(./image/top_mv.jpg);
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.makeWaveLogoPic{
+    margin-right: 20px;
+}
+.makeWaveInfoList{
+    display: flex;
+    font-size: 15px;
+}
+.makeWaveInfo{
+    margin-right: 10px;
+    color: #fff;
+}
+.languageList{
+    display: flex;
+    padding-right: 8px;
+}
+.JP{
+    display: block;
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    background-color: rgba(252, 252, 252,.5);
+    border-radius: 10px;
+    color: #fff;
+}
+.EN{
+    margin-left: 8px;
+    color: #fff;
+}
+.makeWaveSearch{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 8px;
+    border: none;
+    cursor: pointer;
+}
+.makeWaveAsk{
+    width: 170px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0E5DA8;
+    color: #fff;
+    border-radius: 30px;
+}
+.makeWaveCopyright{
+    margin-top: 200px;
+    margin: 200px 0 0 20px;
+    font-weight: bold;
+    writing-mode:vertical-lr;
+    color: #fff;
+}
+.makeWaveTitle{
+    width: 500px;
+    margin: 0 0 40px 650px;
+}
+.makeWaveMainTxt{
+    font-size: 75px;
+    color: #fff;
+}
+.makeWaveSubTxt{
+    color: #fff;
+}
+.activeArea{
+    width: 650px;
+    height: 60px;
+    margin-left: 570px;
+    display: flex;
+    background-color: #fff;
+    border-radius: 50px 0 0 50px;
+}
+.activeDate{
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+.active{
+    width: 600px;
+    display: flex;
+    align-items: center;
+}
+.listArrow{
+    padding: 10px 50px 0 0;
+}
+.headerArrow{
+    border: none;
+    color: #0E5DA8;
+    background: #fff;
+}
+/* board2 */
+.whoArea{
+    width: 1200px;
+    display: flex;
+    padding: 200px 0;
+    background-color: #0B5092;
+    background-image: url(./image/top_who_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.whoTxtArea{
+    margin: 0 150px 0 60px;
+    width: 450px;
+}
+.whoTxtInside{
+    margin-bottom: 35px;
+}
+.whoTitle{
+    position: relative;
+    font-size: 48px;
+    color: #fff;
+}
+.whoTitle::before{
+    position: absolute;
+    left: -30px;
+    top: 25px;
+    content: "";
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.aboutUs{
+    color: #B8C5DD;
+    font-weight: normal;
+}
+.chemical{
+    font-weight: normal;
+    width: 400px;
+    font-size: 35px;
+    color: #fff;
+}
+.century{
+    width: 450px;
+    margin: 50px 0;
+    color: #fff;
+}
+.whoBtn{
+    border-radius: 40px;
+    border: none;
+    color:#015DA8;
+    background-color: #fff;
+    padding: 25px 60px;
+}
+.whoBtn::after{
+    content: "●";
+    margin-left: 1em;
+}
+.whoBtn:hover{
+    color:#fff;
+    background-color: rgba(255, 255, 255, .0);
+    border: 1px solid #fff;
+}
+.whoBtn:hover::after{
+    content: "→";
+    margin-left: 1em;
+}
+.whoPicArea{
+    width: 600px;
+    display: flex;
+}
+.whoTowerPic{
+    margin-top: 20px;
+    width: 180px;
+}
+.whoWavePic{
+    width: 180px;
+}
+.whoAstronautPic{
+    width: 180px;
+    margin-top: 40px;
+}
+/* board3 */
+.businessArea{
+    width: 1200px;
+}
+.businessInside{
+    margin: 200px 0 0 100px;
+}
+.businessTitle{
+    position: relative;
+    font-size: 48px;
+    color: #246CB0;
+}
+.businessTitle::before{
+    position: absolute;
+    left: -30px;
+    top: 25px;
+    content: "";
+    background-color: #246CB0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.businessIntroduce{
+    color: #6E9DCB;
+    margin-bottom: 50px;
+}
+.businessPicArea{
+    display: flex;
+    width: 1100px;
+}
+.modelPicArea, .planePicArea{
+    display:block;
+    width: 550px;
+    height: 550px;
+    overflow: hidden;
+}
+.modelPic, .planePic{
+    width: 550px;
+    height: 550px;
+    transition: 1s;
+    overflow: hidden;
+}
+.modelPic:hover, .planePic:hover{
+    transform: scale(1.2, 1.2);
+    width: 550px;;
+    height: 550px;
+}
+.businessInsideArea{
+    position: relative;
+}
+.modelInside, .planeInside{
+    display: flex;
+    position: absolute;
+    margin: 0 20px;
+    bottom: 50px;
+}
+.businessMainTxt{
+    color: #fff;
+    font-size: 48px;
+}
+.businessSubTxt{
+    color: #fff;
+}
+.businessBtn{
+    width: 90px;
+    height: 90px;
+    margin-left: 60px;
+    color: #246CB0;
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+}
+.businessBtn:hover{
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #fff;
+    color: #fff;
+}
+#modelAct, #planeAct{
+    display: none;
+}
+#planeAct{
+    overflow: hidden;
+    width: 550px;
+    height: 550px;
+}
+#modelAct:hover + .businessBtn, #planeAct:hover + .businessBtn{
+    background-color: rgb(10, 10, 10, 0);
+    border: 1px solid #fff;    
+    color: #fff;
+}
+/* board4 */
+.service{
+    width: 1200px;
+    background-color: #F6F8FA;
+}
+.serviceInside{
+    padding-top: 50px;
+    margin-left:100px;
+}
+.serviceArea{
+    width: 1000px;
+    display: flex;
+    margin-bottom: 50px;
+}
+.serviceMainTitle{
+    position: relative;
+    font-size: 48px;
+    color: #0E5DA8;
+}
+.serviceMainTitle::before{
+    position: absolute;
+    left: -30px;
+    top: 25px;
+    content: "";
+    background-color: #0E5DA8;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.serviceSubTitle{
+    border-radius: 30px;
+    border: none;
+    color:#015DA8;
+    font-weight: normal;
+}
+.serviceMore{
+    margin-left: 250px;
+    padding: 25px 60px;
+    border-radius: 40px;
+    background-color: #fff;
+    color: #0E5DA8;
+}
+.serviceMore:hover{
+    border:1px solid #0E5DA8;
+    background-color: rgb(246, 240, 240, 0);
+}
+.serviceMore::after{
+    content: "●";
+    margin-left: 1em;
+}
+.serviceMore:hover::after{
+    content: "→";
+    margin-left: 1em;
+}
+.servicePicArea{
+    display: flex;
+    overflow: auto;
+    height: 800px;
+}
+.heatArea, .developArea, .constructionArea{
+    margin-right: 50px;
+    position: relative;
+}
+.servicePic{
+    width:450px;
+    height: 650px;
+}
+.heatTxtArea, .developTxtArea, .constructionTxtArea{
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 350px;
+}
+.serviceInsideMainTxt{
+    position: absolute;
+    font-weight: normal;
+    font-size: 30px;
+    padding: 150px 0 0 40px;
+    transform: translateY(0);
+}
+.serviceInsideMainTxt:hover{
+    transform: translateY(-100px);
+    transition: .5s;
+}
+.serviceInsideSubTxt{
+    position: absolute;
+    width: 350px;
+    height: 550px;
+    padding: 100px 0 0 50px;
+    font-size: 15px;
+    opacity: 0;
+    transform: translateY(0);
+}
+.serviceInsideSubTxt:hover{
+    color: rgb(255, 253, 253);
+    opacity: 1;
+    transform: translateY(100px);
+    transition: .5s;
+}
+.serviceBtn{
+    border: none;
+    background-color: #fff;
+    margin: 400px 0 0 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    color: #0E5DA8;
+}
+.changeArea{
+    display: flex;
+}
+.changeLine{
+    width: 700px;
+    display: flex;
+    align-items: center;
+}
+.changeLeftLine{
+    width: 350px;
+    height: 3px;
+    background-color:#0E5DA8;
+}
+.changeRightLine{
+    width: 350px;
+    height: 3px;
+    background-color:#aaa;
+}
+.changeBtnArea{
+    margin-left: 40px;
+    display: flex;
+}
+.changeLeftArrow, .changeRightArrow{
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.changeLeftArrow{
+    color: #86AED3;
+    border: 1px solid rgb(221, 221, 221);
+}
+.changeRightArrow{
+    color: #1D67AD;
+    border: 1px solid rgb(210, 208, 208);
+}
+#heat, #develop, #construction{
+    display: none;
+}
+#heat:hover + .serviceBtn, #develop:hover + .serviceBtn, #construction:hover + .serviceBtn{
+    border: 1px solid #fff;
+    background-color: rgb(0, 0, 0, 0);  
+    color: #fff;
+}
+/* board5 */
+.achievementsArea{
+    width: 1000px;
+    padding: 100px 100px;
+}
+.achievementsTitleArea{
+    display: flex;
+    margin-bottom: 70px;
+}
+.achievementsMainTxt{
+    position: relative;
+    font-size: 48px;
+    color: #0E5DA8;
+}
+.achievementsMainTxt::before{
+    content: "";
+    position: absolute;
+    left: -30px;
+    top: 25px;
+    background-color: #0E5DA8;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.achievementsSubTxt{
+    font-weight: normal;
+    font-size: 20px;
+    color: #0E5DA8;
+}
+.achievementsBtn{
+    margin-left: 500px;
+    border: none;
+    border-radius: 40px;
+    color:#015DA8;
+    background-color: #F2F5F8;
+    padding: 25px 60px;
+}
+.achievementsBtn:hover{
+    border:1px solid #0E5DA8;
+    background-color: #fff;
+}
+.achievementsBtn::after{
+    content: "●";
+    margin-left: 1em;
+}
+.achievementsBtn:hover::after{
+    content: "→";
+    margin-left: 1em;
+}
+.achievements--change{
+    width: 1000px;
+    display: flex;
+    margin-bottom: 70px;
+}
+.project{
+    background-color: #0E5DA8;
+    color: #fff;
+}
+.seed{
+    background-color: #F6F8FA;
+    color: #0E5DA8;
+}
+.seed:hover{
+    background-color: #0E5DA8;
+    color: #fff;
+}
+.project, .seed{
+    border: none;
+    width:610px;
+    height: 70px;
+}
+.allBtn{
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #0E5DA8;
+    border: none;
+    margin-bottom: 20px;
+}
+.industry, .process{
+    border: none;
+    background-color: #fff;
+    color: #0E5DA8;
+    font-size: 17px;
+    font-weight: bold;
+    border-bottom: 1px solid #aaa;
+}
+.industryList{
+    margin-bottom: 40px;
+}
+.industryItem-link, .processItem-link{
+    color: rgb(61, 60, 60);
+}
+.search{
+    font-size: 13px;
+    margin-right: 40px;
+}
+.achievementsMenu{
+    display: flex;
+}
+.achievementsAside{
+    width: 250px;
+    line-height: 2;
+}
+.achievementsList{
+    width: 750px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.achievementsItem{
+    width: 300px;
+    margin-bottom: 40px;
+    margin: 0 0 40px 60px;
+}
+.achievementsPicArea{
+    width: 330px;
+    height: 200px;
+    overflow: hidden;
+}
+.achievementsPic{
+    width:330px;
+    height: 200px;
+    transition:1s;
+}
+.achievementsPic:hover{
+    transform: scale(1.2,1.2);
+}
+.achievementsDetail{
+    margin-top: 20px;
+    width: 350px;
+}
+.achievementsType{
+    font-size: 12px;
+    padding: 5px 10px;
+    width:fit-content;
+    border-radius: 30px;
+    margin-left: 10px;
+    background-color: #F2F5F8;
+    color: #aaa;
+}
+.achievementsItemTxt{
+    width: 350px;
+}
+.achievementsItemMainTxt{
+    font-size: 22px;
+    color: #0E5DA8;
+    padding: 10px 0;
+}
+.achievementsItemSubTxt{
+    font-size: 16px;
+    color: #1D2B3B;
+}
+.achievementsItemBtn{
+    margin: 50px 0 0 190px;
+    padding: 25px 60px;
+    border: 1px solid #0E5DA8;
+    background-color: #F2F5F8;
+    border-radius: 40px;
+}
+.achievementsItemBtn::after{
+    content: "●";
+    margin-left: 1em;
+}
+.achievementsItemBtn:hover{
+    border:1px solid #0E5DA8;
+    background-color: #fff;
+}
+.achievementsItemBtn:hover::after{
+    content: "→";
+    margin-left: 1em;
+}
+/* board6 */
+.recruitArea{
+    width: 1200px;
+    background-image: url("./image/top_recruit_bg.jpg");
+    background-size: cover;
+}   
+.recruitInside{
+    padding: 150px 0 150px 100px;
+}
+.recruitMainTxt{
+    position: relative;
+    font-size: 48px;
+    color: #fff;
+}
+.recruitMainTxt::before{
+    position: absolute;
+    left: -30px;
+    top: 25px;
+    content: "";
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.recruitSubTxt{
+    font-weight: normal;
+    color: #F0EEE6;
+    padding-top: 1px;
+}
+.recruitTxt{
+    width: 400px;
+    color: #fff;
+    font-size: 15px;
+    padding: 50px 0;
+}
+.recruitBtn{
+    border-radius: 30px;
+    border: none;
+    background-color: #fff;
+    color: #0E5DA8;
+    padding: 25px 60px;
+}
+.recruitBtn:hover{
+    color:#fff;
+    background-color: rgba(255, 255, 255, .0);
+    border: 1px solid #fff;
+}
+.recruitBtn::after{
+    content: "●";
+    margin-left: 1em;
+}
+.recruitBtn:hover::after{
+    content: "→";
+    margin-left: 1em;
+}
+/* board7 */
+.info{
+    width: 1200px;
+    margin: 200px 0;
+}
+.infoArea{
+    width: 1000px;
+    display: flex;
+    margin: 0 100px;
+}
+.newsArea, .releaseArea{
+    width: 450px;
+}
+.newsArea{
+    margin-right: 100px;
+}
+.newsMainTxt, .releaseMainTxt{
+    position: relative;
+    font-size: 48px;
+    color: #0E5DA8;
+}
+.newsMainTxt::before, .releaseMainTxt::before{
+    position: absolute;
+    left: -30px;
+    top: 25px;
+    content: "";
+    background-color: #0E5DA8;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.newsSubTxt, .releaseSubTxt{
+    font-weight: normal;
+    font-size: 20px;
+    color: #0E5DA8;
+}
+.newsInfoList, .releaseList{
+    margin-right: 120px;
+    width: 450px;
+}
+.newsInfoItem, .releaseItem{
+    margin-top: 50px;
+}
+.newsInfo, .releaseInfo{
+    color: #000;
+    margin-top: 40px;
+}
+.newsDetail, .releaseDetail{
+    display: flex;
+}
+.newsDate, .releaseDate{
+    color: rgb(119, 119, 119);
+    margin-right: 10px;
+}
+.newsType{
+    text-align:center;
+    width: 70px;
+    height: 20px;
+    border: 1px solid rgb(199, 198, 198);
+    border-radius: 30px;
+    color: #0E5DA8;
+}
+.infoEnd{
+    display: flex;
+    margin: 80px 0 0 100px;
+}
+.infoLine{
+    width: 750px;
+    height: 3px;
+    background-color: #EDEEEF;
+    margin: 25px 50px 0 0;
+}
+.infoBtn{
+    border: none;
+    border-radius: 40px;
+    background-color: #F2F5F8;
+    color: #0E5DA8;
+    padding: 25px 60px;
+}
+.infoBtn:hover{
+    border:1px solid #0E5DA8;
+    background-color: #fff;
+}
+.infoBtn::after{
+    content: "●";
+    margin-left: 1em;
+}
+.infoBtn:hover::after{
+    content: "→";
+    margin-left: 1em;
+}
+/* board8 */
+.design{
+    width: 1200px;
+    margin-top: 200px;
+}
+.designArea{
+    background-image: url("./image/top_carbon_bg.png");
+    background-size: cover;
+    height: 1000px;
+    padding-left: 100px;
+}
+.designMainTxt{
+    width: 350px;
+    font-weight: normal;
+    position: relative;
+    font-size: 48px;
+    color: #73BC5D;
+}
+.designMainTxt::before{
+    position: absolute;
+    left: -30px;
+    top: 25px;
+    content: "";
+    background-color: #73BC5D;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.designSubTxt{
+    font-weight: normal;
+    font-size: 20px;
+    color: #73BC5D;
+}
+.designInsideArea{
+    margin-top: 250px;
+}
+.designInsideMainTxt{
+    font-size: 30px;
+    width: 350px;
+    color: #fff;
+}
+.designInsideSubTxt{
+    width: 600px;
+    color: #fff;
+    font-size: 17px;
+    line-height: 2;
+    margin: 50px 0;
+}
+.designBtn{
+    position: relative;
+    width: 170px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    background-color: #fff;
+    color: #0E5DA8;
+}
+.designBtn:hover{
+    color:#fff;
+    background-color: rgba(255, 255, 255, .0);
+    border: 1px solid #fff;
+}
+.designBtn::after{
+    content: "";
+    position: absolute;
+    top: 1.8em;
+    right: 2em;
+    width: 8px;
+    height: 8px;
+    background-color: #015DA8;
+    border-radius: 50%;
+}
+.contactArea{
+    padding: 140px 0;
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-color: #015DA8;
+}
+.contactTxt{
+    position: relative;
+    margin-left: 200px;
+}
+.contactTxt::before{
+    position: absolute;
+    left: -10px;
+    top: 7px;
+    content: "";
+    background-color: #fff;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+.contactTitle{
+    color: #fff;
+    font-size: 20px;
+}
+.contactMainTxt{
+    color: #fff;
+    font-size: 35px;
+}
+.contactSubTxt{
+    width: 300px;
+    color: #fff;
+    font-size: 20px;
+}
+#contactTouch{
+    width: 100%;
+    height: 428px;
+    opacity: 0;
+}
+.contactTouchArea{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+#contactTouch:hover + .contactBtn{
+    border: 1px solid #fff;
+    background-color: #015DA8;
+    color: #fff;
+}
+.contactBtn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+    background-color: #fff;
+    margin: 150px 0 0 1000px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    color: #0E5DA8;
+}
+/* board9 */
+.endArea{
+    width: 1200px;
+}
+.footer{
+    background-color: #1D2B3B;
+    height: 700px;
+    display: flex;
+    padding: 200px 100px;
+}
+.companyInfo{
+    width: 300px;
+    margin-right: 50px;
+}
+.footerLogo{
+    padding-bottom: 30px;
+}
+.name{
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.num, .address{
+    font-size: 14px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.fb{
+    width: 20px;
+    padding-bottom: 40px;
+}
+.footerDetail{
+    display: flex;
+    width: 650px;
+}
+.frontPageInfo, .projectInfo, .askInfo{
+    width: 130px;
+    flex-grow: 1;
+}
+.pageInfo{
+    /* margin: 0 50px 0 100px; */
+    display: block;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.projectInfo{
+    margin: 0 50px 0 70px;
+}
+.infoSmallTitle{
+    margin-bottom: 5px;
+    color: #8b8375;
+    font-size: 12px;
+}
+.infoLink{
+    color: #A4AAB0;
+    font-size: 14px;
+    line-height: 2.5;
+}
+.infoLink:hover{
+    color: #fff;
+}
+.tm{
+    padding: 0 5px;
+}
+.oscillator{
+    color: #fff;
+    background-color: #216FBA;
+    width: 260px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+}
+.oscillatorTxt{
+    color: #fff;
+    width: 180px;
+    font-size: 20px;
+}
+.oscillatorMore{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #216FBA;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
